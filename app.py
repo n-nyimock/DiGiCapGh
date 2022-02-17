@@ -18,7 +18,7 @@ chart.add_data(values)
 sheet.add_chart(chart, 'x2')
 
 wb.save('excel_work1.xlsx')
-'''
+
 
 
 F_name = input('What is your first name? ')
@@ -27,7 +27,24 @@ L_name = input('what is your last name? ')
 Birth_year = input('what is your year of birth? ')
 age = (2022 - int(Birth_year))
 print(age + 3)
-if age + 3 <=30:
+if age + 3 <= 30:
     print('You are a young man from Ghana')
 else:
     print('You should be in University by now and that is great achievement.')
+'''
+
+
+import math
+
+AB = int(input('Input AB: '))
+AC = int(input('Input AC: '))
+a = (AB * AB)
+b = (AC * AC)
+BC = float(a + b)
+print(a)
+print(b)
+print(BC)
+t = (math.sqrt(BC))
+print(t)
+
+
